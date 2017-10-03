@@ -4,9 +4,11 @@ print words.find('day')
 words = words.replace('day', 'month',1)
 words.replace('day', 'month')
 print words
+
 x = [2,54,-2,7,12,98]
 print"minvalue elemnt: ",min(x)
 print"max value element:",max(x)
+
 x = ["hello",2,54,-2,7,12,98,"world"]
 new_list=[]
 print x[0],x[-1]
